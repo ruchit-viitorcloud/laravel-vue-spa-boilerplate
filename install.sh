@@ -24,5 +24,7 @@ php -m
 echo "-----------------------------------------"
 
 echo -e "\033[32mStarting install laravel vue spa boilerplate...\033[0m"
-Composer install
+
+composer install
+
 php artisan install:app
